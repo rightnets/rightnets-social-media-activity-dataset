@@ -16,14 +16,14 @@ The main data directory is “italian-eu-2024-posts” which contains to sub-dir
 	 └─ keywords.txt
 		  
 The following files are available
-- italian-eu-2024-posts/facebook/data.csv: Contains the Facebook dataset with columns representing post metadata (e.g., postId, URL, text), engagement statistics (e.g., likesCount, sharesCount, commentsCount), and posting date.
-- italian-eu-2024-posts/x/data.csv: Contains the Twitter dataset, including columns for tweet metadata (e.g., id, URL), engagement statistics (e.g., retweetCount, replyCount, likeCount, quoteCount), and creation timestamp.
-- italian-eu-2024-posts/keywords.txt: A file listing the keywords used to identify and filter relevant posts and tweets, reflecting a focus on election-related topics, candidates, and campaign themes.
+- [italian-eu-2024-posts/facebook/data.csv](italian-eu-2024-posts/facebook/data.csv): Contains the Facebook dataset with columns representing post metadata (e.g., postId, URL, text), engagement statistics (e.g., likesCount, sharesCount, commentsCount), and posting date.
+- [italian-eu-2024-posts/x/data.csv](italian-eu-2024-posts/x/data.csv): Contains the Twitter dataset, including columns for tweet metadata (e.g., id, URL), engagement statistics (e.g., retweetCount, replyCount, likeCount, quoteCount), and creation timestamp.
+- [italian-eu-2024-posts/keywords.txt](italian-eu-2024-posts/keywords.txt): A file listing the keywords used to identify and filter relevant posts and tweets, reflecting a focus on election-related topics, candidates, and campaign themes.
 
 The following table describes the fields available in the Facebook and X CSV files, along with each field data type.
-| **    Facebook   **  |                                        | **    X   **        |                                       |
+| **Facebook**         |                                        | **X**               |                                       |
 |----------------------|----------------------------------------|---------------------|---------------------------------------|
-| **    Field   **     | **    Data Type   **                   | **    Field   **    | **    Data Type   **                  |
+| **Field**            | **Data Type**                          | **Field**           | **Data Type**                         |
 |     postId           |     String                             |     id              |     String                            |
 |     likesCount       |     Unsigned integer                   |     retweetCount    |     Unsigned integer                  |
 |     sharesCount      |     Unsigned integer                   |     replyCount      |     Unsigned integer                  |
