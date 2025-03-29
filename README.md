@@ -37,7 +37,22 @@ The following table describes the fields available in the Facebook and X CSV fil
 
 ## Dataset Release Agreement
 
-The dataset is freely released for research and educational purposes.
+The dataset is freely released for research and educational purposes. Please cite as
+- P. Sernani, Social media and electoral dynamics: A dataset of X and facebook activity during the 2024 European elections, Data in Brief 59 (2025). doi:10.1016/j.dib.2025.111407.
+	 
+Bibtex entry:
+
+	@article{Sernani2025,
+	  author	= {Paolo Sernani},
+	  title		= {Social media and electoral dynamics: A dataset of X and facebook activity during the 2024 European elections},
+	  journal	= {Data in Brief},
+	  volume	= {59},
+	  pages		= {111407},
+	  year		= {2025},
+	  doi		= {10.1016/j.dib.2025.111407},
+	}
+
+The paper is open access and available here <https://www.sciencedirect.com/science/article/pii/S2352340925001398>.
 
 ## Acknowledgement
 
